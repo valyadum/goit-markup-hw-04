@@ -118,7 +118,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: var(--focus-button);
+    
     
 }
 
@@ -134,10 +134,7 @@ nav {
     gap: 40px;
    
 }
-.page-nav .current {
-    position: relative;
-    color: var(--focus-button);
-}
+
 .page-nav .link {
     display: flex;
     color: var(--site-color-two);
@@ -184,8 +181,13 @@ address {
 .address-link .link:focus {
     color: var(--focus-button);
 }
-
-
+.title-nav .current{
+    color: var(--focus-button);
+}
+.current {
+    position: relative;
+ 
+}
 
 .current::after{
     content: "";
